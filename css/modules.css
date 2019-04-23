@@ -1,0 +1,31 @@
+@media only screen and (max-width: 767px) {
+  
+  body {
+    width: 480px;
+  }
+
+  header {
+    height: 75px;
+  }
+
+  .asideLeft {
+    width: 480px;
+    height: 150px;
+  }
+
+  .threeEight {
+    width: 480px;
+    height: 125px;
+  }
+
+  .quad {
+    float: left;
+    width: 240px;
+    height: 250px;
+  }
+
+  footer {
+    height: 80px;
+    width: 480px;
+  }
+}

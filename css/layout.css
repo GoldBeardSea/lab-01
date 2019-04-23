@@ -14,4 +14,19 @@ header {
   width: 380px;
   background-color: blue;
   height: 200px;
+  float: left;
+}
+
+.quad {
+  width: 190px;
+  height: 250px;
+  background-color: red;
+  float: left;
+}
+
+footer {
+  width: 760px;
+  height: 150px;
+  background-color: purple;
+  float: left;
 }
