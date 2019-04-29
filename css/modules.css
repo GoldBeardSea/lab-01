@@ -11,21 +11,25 @@
   .asideLeft {
     width: 480px;
     height: 150px;
+    background-color: bisque;
   }
 
   .threeEight {
     width: 480px;
     height: 125px;
+    background-color: peru;
   }
 
   .quad {
     float: left;
     width: 240px;
     height: 250px;
+    background-color: aquamarine;
   }
 
   footer {
     height: 80px;
     width: 480px;
+    background-color: firebrick;
   }
 }
