@@ -1,3 +1,31 @@
+#a {
+  background-color: azure;
+}
+#b {
+  background-color: bisque;
+}
+#c {
+  background-color: chartreuse;
+}
+#d {
+  background-color: darkkhaki;
+}
+#e {
+  background-color: floralwhite;
+}
+#f {
+  background-color: forestgreen;
+}
+#g {
+  background-color: green;
+}
+#h {
+  background-color: violet;
+}
+#i {
+  background-color: chocolate;
+}
+
 @media only screen and (max-width: 767px) {
   
   body {
@@ -11,25 +39,54 @@
   .asideLeft {
     width: 480px;
     height: 150px;
-    background-color: bisque;
   }
 
   .threeEight {
     width: 480px;
     height: 125px;
-    background-color: peru;
   }
 
   .quad {
-    float: left;
     width: 240px;
     height: 250px;
-    background-color: aquamarine;
+  }
+
+  .contOne {
+    display: flex; 
+    flex-direction: column;
   }
 
   footer {
     height: 80px;
     width: 480px;
     background-color: firebrick;
+  }
+
+  #a {
+    background-color: aquamarine;
+  }
+  #b {
+    background-color: blue;
+  }
+  #c {
+    background-color: cadetblue;
+  }
+  #d {
+    background-color: darkcyan;
+  }
+  #e {
+    background-color: darkolivegreen;
+  }
+  #f {
+    background-color: fuchsia;
+  }
+  #g {
+    background-color: goldenrod;
+  }
+  #h {
+    background-color: hotpink;
+  }
+  #i {
+    background-color: brown;
   }
 }
