@@ -1,12 +1,16 @@
 header {
   height: 100px;
   background-color: hotpink;
+  position: relative;
+
 }
 
 .asideLeft {
   width: 200px;
   height: 600px;
   background-color: palegreen;
+  position: relative;
+
 }
 
 .contOne {
@@ -34,18 +38,33 @@ header {
 
 .threeEight {
   width: 380px;
-  background-color: blue;
   height: 200px;
+  float: left;
+  position: relative;
 }
 
 .quad {
   width: 190px;
   height: 250px;
-  background-color: red;
+  float: left;
+  position: relative;
+
 }
 
-footer {
+#footer {
   width: 760px;
   height: 150px;
+  float: left;
+  position: relative;
+  background-color: aqua;
+}
+
+p {
+  margin: 0;
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(0, -50%);
+  margin-left: 50%; 
+  margin-right: 50%;
   background-color: purple;
 }
