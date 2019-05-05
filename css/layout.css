@@ -6,12 +6,34 @@ header {
 }
 
 .asideLeft {
-  float: left;
   width: 200px;
   height: 600px;
   background-color: palegreen;
   position: relative;
 
+}
+
+.contOne {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.contOne div {
+  align-self: auto;
+}
+
+.contTwo {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.ultraCont {
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: wrap;
 }
 
 .threeEight {
@@ -26,6 +48,7 @@ header {
   height: 250px;
   float: left;
   position: relative;
+
 }
 
 #footer {
@@ -43,4 +66,5 @@ p {
   transform: translate(0, -50%);
   margin-left: 50%; 
   margin-right: 50%;
+  background-color: purple;
 }
