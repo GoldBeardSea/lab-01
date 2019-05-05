@@ -5,31 +5,65 @@
   }
 
   header {
+    position: relative;
     height: 75px;
   }
 
   .asideLeft {
     width: 480px;
     height: 150px;
-    background-color: bisque;
   }
 
   .threeEight {
     width: 480px;
     height: 125px;
-    background-color: peru;
   }
 
   .quad {
     float: left;
     width: 240px;
     height: 250px;
-    background-color: aquamarine;
   }
 
-  footer {
+  #footer {
     height: 80px;
     width: 480px;
-    background-color: firebrick;
   }
+
+  p {
+    margin: 0;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    margin-left: 50%; 
+    margin-right: 50%;
+ }
+}
+
+#b {
+  background-color: bisque;
+}
+
+#c {
+  background-color: aquamarine;
+}
+
+#d {
+  background-color: firebrick;
+}
+
+#e {
+  background-color: peru;
+}
+
+#f {
+  background-color: blue;
+}
+
+#g {
+  background-color: purple;
+}
+
+#h {
+  background-color: green;
 }
